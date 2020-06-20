@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3061a469-2f53-4cd1-9b69-f7e2fd97f97d" name="Default Changelist" comment="二叉树学习">
+      <change beforePath="$PROJECT_DIR$/data_structure/BinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/BinaryTree.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dZ1I8hTn2KSsAdPoJwenpwooco" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_leran" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structure" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structure/BinaryTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.BinaryTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3061a469-2f53-4cd1-9b69-f7e2fd97f97d" name="Default Changelist" comment="" />
+      <created>1592617718535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592617718535</updated>
+    </task>
+    <task id="LOCAL-00001" summary="更新">
+      <created>1592617834962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592617834962</updated>
+    </task>
+    <task id="LOCAL-00002" summary="二叉树学习">
+      <created>1592631064915</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592631064915</updated>
+    </task>
+    <task id="LOCAL-00003" summary="二叉树学习">
+      <created>1592634960855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592634960855</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/algorithm" />
+      <path value="$PROJECT_DIR$/data_structure" />
+    </ignored-roots>
+    <MESSAGE value="更新" />
+    <MESSAGE value="二叉树学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树学习" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1140" y="256" key="FileChooserDialogImpl" timestamp="1592629838208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1140" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592629838208" />
+    <state width="782" height="281" key="GridCell.Tab.0.bottom" timestamp="1592634084258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="782" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592634084258" />
+    <state width="782" height="281" key="GridCell.Tab.0.center" timestamp="1592634084257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="782" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592634084257" />
+    <state width="782" height="281" key="GridCell.Tab.0.left" timestamp="1592634084257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="782" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592634084257" />
+    <state width="782" height="281" key="GridCell.Tab.0.right" timestamp="1592634084257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="782" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592634084257" />
+    <state x="285" y="224" key="RollbackChangesDialog" timestamp="1592635779075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="285" y="224" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592635779075" />
+    <state x="-82" y="185" key="SettingsEditor" timestamp="1592632224869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-82" y="185" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592632224869" />
+    <state x="519" y="266" key="Vcs.Push.Dialog.v2" timestamp="1592635133417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="519" y="266" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592635133417" />
+    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592634949707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592634949707" />
+  </component>
+</project>

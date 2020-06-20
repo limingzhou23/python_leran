@@ -6,6 +6,8 @@
 
 from pybst.bstree import BSTree
 from pybst.draw import plot_tree
+from linear_structure_Stack import Stack
+import operator
 
 # class Node:
 #     def __init__(self, value=-1, left=None, right=None):
@@ -34,39 +36,6 @@ from pybst.draw import plot_tree
 #                 self.myQueue.append(treeNode.rchild)
 #                 self.myQueue.pop(0)
 #
-#
-# def preTraverse(root):
-#     '''
-#     前序遍历
-#     '''
-#     if root == None:
-#         return
-#     print(root.value)
-#     preTraverse(root.lchild)
-#     preTraverse(root.rchild)
-#
-#
-# def midTraverse(root):
-#     '''
-#     中序遍历
-#     '''
-#     if root == None:
-#         return
-#     midTraverse(root.lchild)
-#     print(root.value)
-#     midTraverse(root.rchild)
-#
-#
-# def afterTraverse(root):
-#     '''
-#     后序遍历
-#     '''
-#     if root == None:
-#         return
-#     afterTraverse(root.lchild)
-#     afterTraverse(root.rchild)
-#     print(root.value)
-#
 # def front_stack(root):
 #     if root ==None:
 #         return
@@ -81,6 +50,8 @@ from pybst.draw import plot_tree
 #         if checknode.rchild != None:
 #             myQueue.append(checknode.rchild)
 
+##############################################
+###############################################
 #二叉树的可视化
 # if __name__ == '__main__':
 #     # elems=range(10)
@@ -109,6 +80,8 @@ from pybst.draw import plot_tree
 #     tree.insert(98, '', node_75)
 #     plot_tree(tree)
 
+##################################################
+##################################################
 #树的嵌套列表实现
 # def BinaryTree(r):
 #     return [r,[],[]]
@@ -156,7 +129,131 @@ from pybst.draw import plot_tree
 # print(r)
 # print(getRightChild(getRightChild(r)))
 
+##############################################
+##############################################
+#二叉树的链表实现
+class BinatryTree:
+    def __init__(self,rootObj):
+        self.key = rootObj
+        self.leftChild = None
+        self.rightChild = None
+
+    def insertLeft(self,newNode):
+        if self.leftChild == None:
+            self.leftChild = BinatryTree(newNode)
+        else:
+            t = BinatryTree(newNode)
+            t.leftChild = self.leftChild
+            self.leftChild = t
+
+    def insertRight(self,newNode):
+        if self.rightChild == None:
+            self.rightChild = BinatryTree(newNode)
+        else:
+            t = BinatryTree(newNode)
+            t.rightChild = self.rightChild
+            self.rightChild = t
+
+    def getRootVal(self):
+        return self.key
+
+    def setRootVal(self,obj):
+        self.key = obj
+
+    def getLeftChild(self):
+        return self.leftChild
+
+    def getRightChild(self):
+        return self.rightChild
+    #前序
+    def preorder(self):
+        print(self.key)
+        if self.leftChild:
+            self.leftChild.preorder()
+        if self.rightChild:
+            self.rightChild.preorder()
+#前序
+def preorder(tree):
+    if tree:
+        print(tree.getRootVal())
+        preorder(tree.getLeftChild())
+        preorder(tree.getRightChild())
+#后序
+def postorder(tree):
+    if tree != None:
+        postorder(tree.getLeftChild())
+        postorder(tree.getRightChild())
+        print(tree.getRootVal())
+#中序
+def inorder(tree):
+    if tree != None:
+        inorder(tree.getLeftChild())
+        print(tree.getRootVal())
+        inorder(tree.getRightChild())
 
 
 
+#######################################
+#######################################
+#二叉树的应用
+#解析树（语法树）
+#表达式解析
 
+def buildParseTree(fpexp):
+    fplist = fpexp
+    pStack = Stack()
+    eTree = BinatryTree('')
+    pStack.push(eTree)
+    currentTree = eTree
+    for i in fplist:
+        if i == '(':
+            currentTree.insertLeft('')
+            pStack.push(currentTree)
+            currentTree = currentTree.getLeftChild()
+        elif i not in ['+','-','*','/',')']:
+            currentTree.setRootVal(int(i))
+            parent = pStack.pop()
+            currentTree = parent
+        elif i in ['+','-','*','/']:
+            currentTree.setRootVal(i)
+            currentTree.insertRight('')
+            pStack.push(currentTree)
+            currentTree = currentTree.getRightChild()
+        elif i == ')':
+            currentTree = pStack.pop()
+        else:
+            raise ValueError
+    return eTree
+
+def evaluate(parseTree):
+    opers = {'+':operator.add,'-':operator.sub,
+             '*':operator.mul,'/':operator.truediv}
+
+    leftC = parseTree.getLeftChild()
+    rightC = parseTree.getRightChild()
+
+    if leftC and rightC:
+        fn = opers[parseTree.getRootVal()]
+        return fn(evaluate(leftC),evaluate(rightC))
+    else:
+        return  parseTree.getRootVal()
+
+#基于后序遍历来求值
+def postevaluate(tree):
+    opers = {'+':operator.add,'-':operator.sub,
+             '*':operator.mul,'/':operator.truediv}
+
+    res1 = None
+    res2 = None
+    if tree:
+        res1 = postevaluate(tree.getLeftChild())
+        res2 = postevaluate(tree.getRightChild())
+        if res1 and res2:
+            return opers[tree.getRootVal()](res1,res2)
+        else:
+            return tree.getRootVal()
+
+
+fpexp = ['(','3','+','(','4','*','5',')',')']
+parseTree = buildParseTree(fpexp)
+print(evaluate(parseTree))

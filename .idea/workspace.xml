@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3061a469-2f53-4cd1-9b69-f7e2fd97f97d" name="Default Changelist" comment="二叉树学习">
+      <change afterPath="$PROJECT_DIR$/data_structure/BinarySearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structure/BinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/BinaryTree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="BinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592634960855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="二叉树学习">
+      <created>1592636762251</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592636762251</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +131,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -137,37 +147,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1140" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592629838208" />
-    <state width="782" height="281" key="GridCell.Tab.0.bottom" timestamp="1592634084258">
+    <state width="1004" height="281" key="GridCell.Tab.0.bottom" timestamp="1592638002260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="782" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592634084258" />
-    <state width="782" height="281" key="GridCell.Tab.0.center" timestamp="1592634084257">
+    <state width="1004" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592638002260" />
+    <state width="1004" height="281" key="GridCell.Tab.0.center" timestamp="1592638002259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="782" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592634084257" />
-    <state width="782" height="281" key="GridCell.Tab.0.left" timestamp="1592634084257">
+    <state width="1004" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592638002259" />
+    <state width="1004" height="281" key="GridCell.Tab.0.left" timestamp="1592638002259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="782" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592634084257" />
-    <state width="782" height="281" key="GridCell.Tab.0.right" timestamp="1592634084257">
+    <state width="1004" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592638002259" />
+    <state width="1004" height="281" key="GridCell.Tab.0.right" timestamp="1592638002260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="782" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592634084257" />
+    <state width="1004" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592638002260" />
     <state x="285" y="224" key="RollbackChangesDialog" timestamp="1592635779075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="285" y="224" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592635779075" />
-    <state x="-82" y="185" key="SettingsEditor" timestamp="1592632224869">
+    <state x="922" y="167" key="SettingsEditor" timestamp="1592637998213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-82" y="185" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592632224869" />
-    <state x="519" y="266" key="Vcs.Push.Dialog.v2" timestamp="1592635133417">
+    <state x="922" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592637998213" />
+    <state x="519" y="266" key="Vcs.Push.Dialog.v2" timestamp="1592636772699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="519" y="266" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592635133417" />
-    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592634949707">
+    <state x="519" y="266" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592636772699" />
+    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592636739435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592634949707" />
+    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592636739435" />
   </component>
 </project>

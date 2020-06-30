@@ -102,8 +102,3 @@ for k, v in s:
     d[k].add(v)
 print(d)
 
-#??????
-dict=collections.defaultdict(lambda a:a*6)
-print(dict)
-dict[2,3]
-print(dict)

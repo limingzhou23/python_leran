@@ -20,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3061a469-2f53-4cd1-9b69-f7e2fd97f97d" name="Default Changelist" comment="语法学习">
-      <change afterPath="$PROJECT_DIR$/auto_comand/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_gramar/cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_leran.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_leran.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_stl/python_object1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structure/BinarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/BinarySearchTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_data/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_data/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_data/.idea/python_data.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_data/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_gramar/found.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_gramar/found.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure/heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/heap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +57,7 @@
       <recent name="C:\study\python_leran\python_gramar\python_reflection" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cache">
+  <component name="RunManager" selected="Python.python_object1">
     <configuration name="cache" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_leran" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="found" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="python_object1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_leran" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_gramar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_stl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_gramar/found.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_stl/python_object1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_object1" />
         <item itemvalue="Python.cache" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.python_reflact" />
-        <item itemvalue="Python.found" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593522949221</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="语法学习">
+      <created>1595315528632</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595315528632</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,13 +298,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="495" y="276" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594731080299" />
-    <state x="519" y="266" key="Vcs.Push.Dialog.v2" timestamp="1593522957393">
+    <state x="519" y="266" key="Vcs.Push.Dialog.v2" timestamp="1595315544506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="519" y="266" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593522957393" />
-    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593522938133">
+    <state x="519" y="266" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595315544506" />
+    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595315509778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593522938133" />
+    <state x="720" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595315509778" />
   </component>
 </project>

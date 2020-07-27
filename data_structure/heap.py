@@ -73,13 +73,14 @@ def PercDown(MaxHeap,p):
     #将MaxHeap中以MaxHeap.Data[p]为根的子堆调整为最大堆
     parent=p
     X=MaxHeap.Data[p]
-    while(parent*2<MaxHeap.Size):
+    while(parent*2 < MaxHeap.Size):
         child=parent*2
-        if((child!=MaxHeap.Size)and(MaxHeap.Data[child]<MaxHeap.Data[child+1])):
-            child+=1
+        if((child != MaxHeap.Size)and(MaxHeap.Data[child]<MaxHeap.Data[child+1])):
+            child += 1
         if(X>=MaxHeap.Data[child]):break
-        else:MaxHeap.Data[parent]=MaxHeap.Data[child]
-        parent=child
+        else:
+            MaxHeap.Data[parent]=MaxHeap.Data[child]
+        parent = child
 
     MaxHeap.Data[parent]=X
     return
